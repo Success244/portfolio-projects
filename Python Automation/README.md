@@ -31,7 +31,7 @@ This project is part of a university assignment for the IAPP301 module and demon
 - Automation resets when the user leaves the room.
 
 ## 🧑‍🤝‍🧑 Group Info
-Include group member names and student numbers as Python comments and Packet Tracer labels.
+This was a group project
 
 ## 📝 Notes
 - Developed using Python and Cisco Packet Tracer.

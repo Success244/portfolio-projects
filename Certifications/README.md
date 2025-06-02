@@ -7,6 +7,7 @@ Each certificate is provided in PDF format and serves as verification of the ski
 ## 🏆 List of Certificates
 | Certificate Title                                | Issuer                      | Year  |
 |--------------------------------------------------|-----------------------------|--------|
+| Python Essentials 1                              | Cisco Networking Academy    | 2025   |
 | Creating Compelling Reports                      | Cisco Networking Academy    | 2024   |
 | Golden Key International Honour Society          | Nelson Mandela University   | 2024   |
 | Learn Ethical Hacking From Scratch 2024          | Udemy                       | 2024   |

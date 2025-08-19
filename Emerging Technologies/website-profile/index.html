@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Katlego Molotsi | Cybersecurity Portfolio</title>
+		<meta name="description" content="Portfolio of Katlego Molotsi — Aspiring Cybersecurity Professional" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<canvas id="matrix-bg" aria-hidden="true"></canvas>
+
+		<header class="site-header">
+			<nav class="navbar">
+				<div class="brand">
+					<div class="logo" aria-hidden="true">KM</div>
+					<span class="brand-name">Katlego Molotsi</span>
+				</div>
+				<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+					<span></span><span></span><span></span>
+				</button>
+				<ul class="nav-links">
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#certificates">Certificates</a></li>
+					<li><a href="#education">Education</a></li>
+					<li><a href="#experience">Experience</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+					<span class="sun" aria-hidden="true">☀</span>
+					<span class="moon" aria-hidden="true">🌙</span>
+				</button>
+			</nav>
+		</header>
+
+		<main>
+			<section class="hero">
+				<div class="hero-inner">
+					<div class="hero-text">
+						<h1 class="reveal" data-anim="up">Aspiring Cybersecurity Professional</h1>
+						<p id="typed" class="typed reveal" data-anim="up" data-delay="100">Securing systems. Protecting people. Elevating resilience.</p>
+						<div class="hero-ctas reveal" data-anim="up" data-delay="200">
+							<a class="btn primary" href="#projects">View Projects</a>
+							<a class="btn ghost" href="#contact">Get in Touch</a>
+						</div>
+						<ul class="quick-stats reveal" data-anim="up" data-delay="300">
+							<li><span class="stat">C1</span><span class="label">Driver’s License</span></li>
+							<li><span class="stat">6+</span><span class="label">Languages</span></li>
+							<li><span class="stat">2023–</span><span class="label">NMU Student</span></li>
+						</ul>
+					</div>
+					<div class="hero-visual reveal" data-anim="left">
+						<div class="avatar">
+							<div class="ring"></div>
+							<div class="inner">KM</div>
+						</div>
+						<div class="floating-badges">
+							<div class="badge">Python</div>
+							<div class="badge">Bash</div>
+							<div class="badge">C#</div>
+							<div class="badge">Wireshark</div>
+							<div class="badge">Nmap</div>
+							<div class="badge">Burp Suite</div>
+							<div class="badge">Kali</div>
+						</div>
+					</div>
+				</div>
+				<div class="hero-glow" aria-hidden="true"></div>
+			</section>
+
+			<section id="about" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">About</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Profile and personal details</p>
+				</div>
+				<div class="about-grid">
+					<article class="card glass reveal" data-anim="right">
+						<h3>Profile</h3>
+						<p>
+							Aspiring cybersecurity professional seeking a junior role to apply foundational knowledge and contribute to organizational security initiatives.
+						</p>
+					</article>
+					<article class="card glass reveal" data-anim="left" data-delay="100">
+						<h3>Personal Details</h3>
+						<ul class="details">
+							<li><span>Nationality</span><strong>South African</strong></li>
+							<li><span>Home Language</span><strong>Setswana</strong></li>
+							<li><span>Other Languages</span><strong>English, isiZulu, isiXhosa, Sepedi & Sesotho</strong></li>
+							<li><span>Driver’s License</span><strong>C1</strong></li>
+							<li><span>Hobbies</span><strong>Photography, Rugby & Soccer</strong></li>
+						</ul>
+					</article>
+					<article class="card glass reveal" data-anim="up" data-delay="200">
+						<h3>Contact</h3>
+						<ul class="details">
+							<li><span>Email</span><a href="mailto:s227003977@mandela.ac.za">s227003977@mandela.ac.za</a></li>
+							<li><span>Mobile</span><a href="tel:+27716856217">+27 71 685 6217</a></li>
+							<li><span>LinkedIn</span><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/katlego-molotsi-208a3a26b/">katlego-molotsi</a></li>
+							<li><span>GitHub</span><a target="_blank" rel="noopener" href="https://github.com/Success244">Success244</a></li>
+						</ul>
+					</article>
+				</div>
+			</section>
+
+			<section id="skills" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Skills</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Technical and professional strengths</p>
+				</div>
+				<div class="skills-grid">
+					<div class="card glass reveal" data-anim="right">
+						<h3>Programming</h3>
+						<div class="skill-bar" data-skill="Python" data-level="85"></div>
+						<div class="skill-bar" data-skill="Bash Scripting" data-level="78"></div>
+						<div class="skill-bar" data-skill="C#" data-level="70"></div>
+					</div>
+					<div class="card glass reveal" data-anim="up" data-delay="100">
+						<h3>Security & Tools</h3>
+						<ul class="chips">
+							<li>Wireshark</li>
+							<li>Nmap</li>
+							<li>Burp Suite</li>
+							<li>Kali Linux</li>
+							<li>CIA Triad</li>
+							<li>Networking Protocols</li>
+						</ul>
+					</div>
+					<div class="card glass reveal" data-anim="left" data-delay="200">
+						<h3>Strengths</h3>
+						<ul class="bullets">
+							<li>Hands-on home lab (Windows 10 + customized Kali Linux)</li>
+							<li>Strong analytical and problem-solving skills</li>
+							<li>Software development background</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section id="projects" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Projects</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Selected work and repositories</p>
+				</div>
+				<div class="projects-grid">
+					<a class="project-card tilt reveal" data-anim="right" href="https://github.com/Success244/portfolio-projects" target="_blank" rel="noopener">
+						<div class="project-media gradient"></div>
+						<div class="project-content">
+							<h3>Portfolio Projects</h3>
+							<p>Collection of cybersecurity and software projects. Explore code, labs and write-ups.</p>
+							<div class="project-links">
+								<span class="chip">GitHub</span>
+								<span class="chip">Security</span>
+							</div>
+						</div>
+					</a>
+					<a class="project-card tilt reveal" data-anim="up" data-delay="150" href="https://github.com/Success244" target="_blank" rel="noopener">
+						<div class="project-media code"></div>
+						<div class="project-content">
+							<h3>GitHub Profile</h3>
+							<p>See more repositories, contributions and activity.</p>
+							<div class="project-links">
+								<span class="chip">Profile</span>
+								<span class="chip">Open Source</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<section id="certificates" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Certificates</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Recognitions and completed courses</p>
+				</div>
+				<ul class="certificate-list">
+					<li class="card glass reveal" data-anim="right">Matric Certificate</li>
+					<li class="card glass reveal" data-anim="up" data-delay="50">Introduction to Cybersecurity (CISCO)</li>
+					<li class="card glass reveal" data-anim="up" data-delay="100">Introduction to Internet Of Things (CISCO)</li>
+					<li class="card glass reveal" data-anim="up" data-delay="150">Creating Compelling Reports (CISCO)</li>
+					<li class="card glass reveal" data-anim="up" data-delay="200">Introduction to Conveyancing (Eduvos)</li>
+					<li class="card glass reveal" data-anim="up" data-delay="250">Learn Ethical Hacking from Scratch (Udemy)</li>
+					<li class="card glass reveal" data-anim="left" data-delay="300">Golden Key International Honors Society</li>
+				</ul>
+			</section>
+
+			<section id="education" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Education</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Academic journey</p>
+				</div>
+				<div class="timeline">
+					<div class="timeline-item reveal" data-anim="right">
+						<div class="time">2023 – Current</div>
+						<div class="content card glass">
+							<h3>Nelson Mandela University</h3>
+							<p>Faculty: Engineering, Built Environment and Technology</p>
+							<p>Qualification: BIT (Software Engineering) – Undergraduate</p>
+						</div>
+					</div>
+					<div class="timeline-item reveal" data-anim="left" data-delay="100">
+						<div class="time">2022</div>
+						<div class="content card glass">
+							<h3>Kitso Ya Boleng</h3>
+							<p>Subjects: Computer Skills, Career Guidance, Personal Progress, Robotics</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="experience" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Work Experience</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Leadership, initiatives and roles</p>
+				</div>
+				<div class="experience-grid">
+					<article class="card glass reveal" data-anim="right">
+						<h3>Hector Pieterson Residence (NMU)</h3>
+						<p>Leadership for 2 years as a House Committee member and Chairperson of Academic Mentors.</p>
+					</article>
+					<article class="card glass reveal" data-anim="up" data-delay="100">
+						<h3>Photography Studio Owner</h3>
+						<p>Collaborated with the Entrepreneurship Department Lab (NMU) on several projects. Few months experience.</p>
+					</article>
+					<article class="card glass reveal" data-anim="up" data-delay="200">
+						<h3>Student Health Peer Helper (2024)</h3>
+						<p>One year experience supporting student wellbeing initiatives.</p>
+					</article>
+					<article class="card glass reveal" data-anim="left" data-delay="300">
+						<h3>Retail Store Operator (NMU)</h3>
+						<p>Currently running a campus retail store at Nelson Mandela University.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="contact" class="section">
+				<div class="section-head">
+					<h2 class="section-title reveal" data-anim="up">Contact</h2>
+					<p class="section-subtitle reveal" data-anim="up" data-delay="100">Let’s build something secure together</p>
+				</div>
+				<div class="contact-grid">
+					<div class="card glass reveal" data-anim="right">
+						<h3>Reach Me</h3>
+						<ul class="details">
+							<li><span>Email</span><a href="mailto:s227003977@mandela.ac.za">s227003977@mandela.ac.za</a></li>
+							<li><span>Mobile</span><a href="tel:+27716856217">+27 71 685 6217</a></li>
+							<li><span>LinkedIn</span><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/katlego-molotsi-208a3a26b/">katlego-molotsi</a></li>
+							<li><span>GitHub</span><a target="_blank" rel="noopener" href="https://github.com/Success244">Success244</a></li>
+						</ul>
+					</div>
+					<form class="card glass contact-form reveal" data-anim="left" id="contact-form">
+						<h3>Quick Message</h3>
+						<label>
+							<span>Name</span>
+							<input type="text" name="name" required />
+						</label>
+						<label>
+							<span>Email</span>
+							<input type="email" name="email" required />
+						</label>
+						<label>
+							<span>Message</span>
+							<textarea name="message" rows="4" required></textarea>
+						</label>
+						<button class="btn primary" type="submit">Send</button>
+						<p class="form-note">This uses your email client via <code>mailto:</code>. No data is stored.</p>
+					</form>
+				</div>
+				<div class="reference card glass reveal" data-anim="up" data-delay="200">
+					<h3>Reference</h3>
+					<p><strong>Frans Neveling</strong> — Educator (at Kitso Ya Boleng)</p>
+					<ul class="details">
+						<li><span>Phone (Office)</span><a href="tel:+27180119582">+27 18 011 9582</a></li>
+						<li><span>Phone (Mobile)</span><a href="tel:+27826038495">+27 82 603 8495</a></li>
+						<li><span>Email</span><a href="mailto:fransneveling@kitsoyaboleng.com">fransneveling@kitsoyaboleng.com</a></li>
+					</ul>
+				</div>
+				<div class="declaration card glass reveal" data-anim="up" data-delay="300">
+					<p>I, <strong>Molotsi Katlego</strong>, hereby declare that the information provided is correct to the best of my knowledge.</p>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="footer-inner">
+				<p>© <span id="year"></span> Katlego Molotsi — Built with pride and security in mind.</p>
+				<div class="socials">
+					<a target="_blank" rel="noopener" href="https://github.com/Success244" aria-label="GitHub">GH</a>
+					<a target="_blank" rel="noopener" href="https://www.linkedin.com/in/katlego-molotsi-208a3a26b/" aria-label="LinkedIn">in</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
